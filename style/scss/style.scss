@@ -1,0 +1,10 @@
+@import "variables";
+@import "custom";
+
+header{
+    background:$primaryColor;
+    &.nav-link{
+      padding:0;
+    }
+
+}
