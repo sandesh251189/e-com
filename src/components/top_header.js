@@ -2,19 +2,27 @@ import React ,{Component} from 'react';
 class TopHeader extends Component{
   render(){
     return(
-      <div classNameName="topheader">
-      <ul className="nav d-flex flex-row-reverse">
-     <li className="nav-item">
-       <a className="nav-link" href="#">Link</a>
-     </li>
-     <li className="nav-item">
-       <a className="nav-link" href="#">Link</a>
-     </li>
-     <li className="nav-item">
-       <a className="nav-link" href="#">Link</a>
-     </li>
+      <div className="topheader">
+          <div className="container">
+            <ul className="nav  justify-content-end">
+                <li className="nav-item">
+                  <a className="nav-link active" href="#">My Account</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" href="#">Wishlist</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" href="#">My Cart</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" href="#">Login</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active" href="#">Sign up</a>
+                </li>
+            </ul>
 
-   </ul>
+          </div>
       </div>
     )
   }
